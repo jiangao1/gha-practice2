@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-      - nmae: Install NodeJS
+      - name: Install NodeJS
         uses: actions/setup-node@v3
       - name: Install dependencies
         run:  npm ci
